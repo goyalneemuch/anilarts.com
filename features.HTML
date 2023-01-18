@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width:1230px)" href="/css/phone.css">
+    <link rel="stylesheet" href="/CSS/STYLE.CSS">
+    <title>Features</title>
+</head>
+<link rel="stylesheet" href="/css/style.css">
+
+<STYLE>
+    /* css reset  */
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('/image/radium.png');   
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1350px;
+        height: 800px;
+
+    }
+
+    .left {
+    border: 2px solid rgb(226, 220, 220);
+    border-style: hidden;
+    display: flex;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+}
+
+.left img {
+    width: 130px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.mid {
+    border: 2px solid rgb(44, 47, 58);
+    border-radius: 25px;
+    background-color: rgb(133, 163, 153);
+    border-style: hidden;
+    display: flex;
+    position: relative;
+    width: 36%;
+    margin: 100px auto;
+
+}
+.mid ul{
+    padding: 14px;
+}
+
+.right {
+    border: 2px solid yellow;
+    border-style: hidden;
+    display: flex;
+    position: relative;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+}
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+
+    }
+
+    .navbar li a {
+        display: inline-block;
+        color: rgb(28, 87, 126);
+        font-weight: bold;
+        text-decoration: none;
+        padding: 2px 14px;
+    }
+
+    .navbar li a:hover, 
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        margin: 15px 5px;
+        color: rgb(78, 45, 167) ;
+        text-decoration: underline;
+        background-color: rgb(185, 211, 211);
+        padding: 3px 12px;
+        border-radius: 25px;
+        border-color: aqua;
+    }
+    .btn:hover{
+        background-color: rgb(67, 224, 224);
+        cursor: pointer;
+    }
+    .WELCOME{
+        margin-left: 50PX;
+        margin-top: 50PX;
+        font-size: large;
+        font-weight: bolder;
+        font-style: italic;
+        text-decoration: rgb(78, 129, 196);
+        color: rgba(22, 33, 48, 0.61);
+        text-decoration: underline;
+    }
+
+    .plates li{
+        /* text-decoration: underline; */
+        /* display: inline-block; */
+        display: block;
+        margin-left: 20px;
+        /* margin-top: 70px; */
+        margin-top: 20px;
+        /* margin-bottom: auto; */
+        margin-bottom: 10px;
+        margin-right: 20px;
+        font-size: 30px;
+        /* color: rgb(30 28 135); */
+        color: wheat;
+        border: 2px solid rgb(127 128 209 / 54%);
+        padding: 15px;
+        background-color:  rgb(94 137 116 / 53%);
+        border-radius: 10px;
+        text-align: left;
+        outline: 2px;
+        outline-color: aquamarine;
+    }   
+    .plates li:hover{
+        background-color: rgb(147 158 179 / 60%);
+        cursor: pointer;
+        text-decoration: underline;
+        border: 2px rgb(16, 16, 66);
+        font-style: italic;
+        font-weight: lighter;
+    } 
+    .insta{
+        display: inline-block;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        margin-right: 21px;
+        margin-left: 1000px;
+        color: darkblue;
+        font-size: 20px;
+        padding: 50px;
+
+
+    }
+</STYLE>    
+
+<body>
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="/image/logo.png" alt="">
+        </div>
+        <!-- mid box for navbar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="/html/index.HTML" >Home</a></li>
+                <li><a href="/html/about.html">About Us</a></li>
+                <li><a href="#"class="active">Features</a></li>
+                <li><a href="https://www.google.co.in/maps/place/Anil+Arts,+Number+%26+Name+Plates/data=!4m7!3m6!1s0x396673a2e0af9013:0xfc5133ec287cc163!8m2!3d24.4594963!4d74.8694836!16s%2Fg%2F11g0j04cwc!19sChIJE5Cv4KJzZjkRY8F8KOwzUfw?authuser=0&hl=en&rclk=1">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for search  -->
+        <div class="right">
+            <button class="btn"><a href="tel:8819965904">call us now </a></button>
+            <button class="btn"><a href="https://wa.me/918819965904"> whataspp now</a></button>
+        </div>
+    </header>
+<div>
+    <div class="WELCOME">   
+        Our services:-<br>
+   As you can see samples of particular items:-
+</div>
+<DIV>
+    <ul class="plates">
+        <LI>RADIUM NUMBER PLATES</LI>
+        <LI>HOME NAME PLATES</LI>
+        <LI>RTO PLATES</LI>
+        <LI>RADIUM STICKERS</LI>
+        <LI>DESIGNING WORK</LI>
+        <LI>OFFICE DESK PLATES</LI>
+        <LI>CABIN OUTSIDE ROOM NAME PLATE</LI>
+        <LI>ACRYLIC ITEMS</LI>
+    </ul>
+</DIV>
+<div class="insta">
+    Also visit us on :
+    <a  href=" https://www.instagram.com/anil_arts_1996/">Instagram</a>
+</div>
+</body>
+
+</html>

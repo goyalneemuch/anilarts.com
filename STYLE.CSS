@@ -1,0 +1,187 @@
+/* css reset  */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: rgba(186, 186, 207, 0.192);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1350px;
+    height: 800px;
+    /* visibility: inherit; */
+}
+
+.left {
+    border: 2px solid rgb(226, 220, 220);
+    border-style: hidden;
+    display: flex;
+    position: absolute;
+    left: 24px;
+    top: 10px;
+}
+
+.left img {
+    width: 130px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.mid {
+    border: 2px solid rgba(44, 47, 58, 0.527);
+    border-radius: 25px;
+    background-color: rgba(133, 163, 153, 0.452);
+    border-style: hidden;
+    display: flex;
+    position: relative;
+    width: 36%;
+    margin: 100px auto;
+
+}
+.mid ul{
+    padding: 14px;
+}
+
+.right {
+    border: 2px solid yellow;
+    border-style: hidden;
+    display: flex;
+    position: relative;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+}
+#header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: block;
+    margin: auto;
+
+}
+
+.navbar li {
+    display: inline-flex;
+    font-size: 18px;
+
+}
+
+.navbar li a {
+    display: inline-block;
+    color: rgb(28, 87, 126);
+    font-weig ht: bold;
+    text-decoration: none;
+    padding: 5px 14px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    margin: 15px 5px;
+    color: rgb(78, 45, 167);
+    text-decoration: underline;
+    background-color: rgb(185, 211, 211);
+    padding: 3px 12px;
+    border-radius: 25px;
+    border-color: aqua;
+}
+
+.btn:hover {
+    background-color: rgb(67, 224, 224);
+    cursor: pointer;
+}
+
+.WELCOME {
+    /* margin-left: 50PX; */
+    margin-top: 50PX;
+    margin-bottom: 3px;
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: rgb(192, 160, 57);
+    color: rgba(23, 41, 80, 0.76);
+    display: block;
+    background-color: rgba(157, 176, 230, 0.548);
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
+
+
+
+.insta {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    margin-left: 900px;
+    color: rgb(94, 136, 228);
+    font-size: 20px;
+    padding: 2px;
+
+
+}
+
+.insta a {
+    color: rgb(31, 53, 100);
+}
+
+.insta a:hover {
+    color: rgb(77, 139, 139);
+}
+
+.box {
+    border: 2px solid rgb(202, 161, 161);
+    height: 600px;
+    border-style: hidden;
+    background: url(/image/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    align-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box:hover {
+    background-color: #a4b7d7b3;;
+}
+.butn{
+    /* align-content: center; */
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* position: absolute; */
+
+}
+.front{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 130px;
+    height: 130px;
+    
+
+}
+.front img{
+    height: 130px;
+    width: 130px;
+}
+/* .front:first-child{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
